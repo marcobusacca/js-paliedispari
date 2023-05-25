@@ -13,11 +13,11 @@ PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce
     - Ritorna (return) la Constante (randomNumber);
 
 
-- Fai scegliere all'utente, tramite un Prompt, tra "pari" o "dispari", ed inserisci la scelta dentro una Constante (userChoice);
+- Fai scegliere all'utente, tramite un Prompt, tra "pari" o "dispari", ed inserisci la scelta dentro una Variabile (userChoice);
 
     - Stampa nella Console (userChoice);
 
-- Dopo che l'utente a scelto, richiedigli, sempre tramite un Prompt, di inserire un numero a sua scelta da 1 a 5, fai il parseInt, ed inserisci il Numero dentro una Constante (userNumber);
+- Dopo che l'utente a scelto, richiedigli, sempre tramite un Prompt, di inserire un numero a sua scelta da 1 a 5, fai il parseInt, ed inserisci il Numero dentro una Variabile (userNumber);
 
     - Stampa nella Console (userNumber);
 

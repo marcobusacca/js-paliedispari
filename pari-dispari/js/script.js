@@ -38,6 +38,7 @@ function randomNumber(min, max){
     return randomNumber;
 }
 
+
 // PROMPT SCELTA UTENTE
 let userChoice = prompt('Scegli tra "PARI" o "DISPARI"!').trim().toUpperCase();
 
@@ -49,3 +50,16 @@ while(userChoice !== "PARI" && userChoice !== "DISPARI"){
 
 // CONSOLE LOG SCELTA UTENTE
 console.log(`L'utente ha scelto ----> ${userChoice}`);
+
+
+// PROMPT NUMERO UTENTE
+let userNumber = parseInt(prompt('Scegli un Numero tra 1 e 5!').trim());
+
+// CONTROLLO NUMERO INSERITO DALL'UTENTE NEL PROMPT
+while(isNaN(userNumber) || userNumber < 1 || userNumber > 5){
+    userNumber = parseInt(prompt('Inserisci bene la tua Scelta! Scegli tra "PARI" o "DISPARI"!').trim());
+    
+}
+
+// CONSOLE LOG NUMERO UTENTE
+console.log("L'utente ha scelto il numero ---->", userNumber);
