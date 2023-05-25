@@ -1,4 +1,4 @@
-PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce un numero da 1 a 5. Genera un Numero Random (sempre da 1 a 5) per il Computer (usando una funzione). Sommiamo i due Numeri e stabiliamo se la Somma dei due Numeri è Pari o Dispari (usando una funzione).Alla fine Dichiariamo chi ha Vinto.
+PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce un numero da 1 a 5. Genera un Numero Random (sempre da 1 a 5) per il Computer (usando una funzione). Sommiamo i due Numeri e stabiliamo se la Somma dei due Numeri è Pari o Dispari (usando una funzione). Alla fine Dichiariamo chi ha Vinto.
 
 
 - Crea una funzione (randomNumber(min, max)) che genera un Numero Random da 1 a 5 per il Computer;
