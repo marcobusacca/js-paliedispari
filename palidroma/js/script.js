@@ -1,6 +1,5 @@
 "use strict";
 
-
 function stringReverse(string){
 
     // SPLITTAGGIO E TRASFORMAZIONE STRINGA IN UN ARRAY
@@ -15,7 +14,11 @@ function stringReverse(string){
     let stringReverse = stringArray.join("");
 
     // STAMPO IN CONSOLE LA STRINGA DOPO AVERLA MODIFICATA
-    console.log(stringReverse);
+    console.log(`Parola inserita dall'utente reversata ----> ${stringReverse}`);
 
     return stringReverse;
 }
+
+// RICHIESTA PAROLA ALL'UTENTE TRAMITE PROMPT
+const userString = prompt('Inserisci una parola e controllerò per te se è PALINDROMA!').trim().toLowerCase();
+console.log(`L'utente ha inserito la parola ----> ${userString}`);
