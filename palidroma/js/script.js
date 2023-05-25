@@ -22,3 +22,7 @@ function stringReverse(string){
 // RICHIESTA PAROLA ALL'UTENTE TRAMITE PROMPT
 const userString = prompt('Inserisci una parola e controllerò per te se è PALINDROMA!').trim().toLowerCase();
 console.log(`L'utente ha inserito la parola ----> ${userString}`);
+
+
+// RICHIAMO FUNZIONE STRING_REVERSE
+const userStringReverse = stringReverse(userString);
