@@ -26,3 +26,12 @@ console.log(`L'utente ha inserito la parola ----> ${userString}`);
 
 // RICHIAMO FUNZIONE STRING_REVERSE
 const userStringReverse = stringReverse(userString);
+
+if (userString === userStringReverse){ // LA PAROLA INSERITA DALL'UTENTE È PALINDROMA
+
+    console.log("La parola che hai inserito è PALINDROMA");
+
+} else{ // LA PAROLA INSERITA DALL'UTENTE NON È PALINDROMA
+
+    console.log("La parola che hai inserito NON è PALINDROMA");
+}
