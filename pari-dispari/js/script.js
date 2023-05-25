@@ -63,3 +63,7 @@ while(isNaN(userNumber) || userNumber < 1 || userNumber > 5){
 
 // CONSOLE LOG NUMERO UTENTE
 console.log("L'utente ha scelto il numero ---->", userNumber);
+
+
+// RICHIAMO FUNZIONE RANDOMNUMBER
+const computerNumber = randomNumber(1, 5);
