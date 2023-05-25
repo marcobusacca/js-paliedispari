@@ -57,7 +57,7 @@ let userNumber = parseInt(prompt('Scegli un Numero tra 1 e 5!').trim());
 
 // CONTROLLO NUMERO INSERITO DALL'UTENTE NEL PROMPT
 while(isNaN(userNumber) || userNumber < 1 || userNumber > 5){
-    userNumber = parseInt(prompt('Inserisci bene la tua Scelta! Scegli tra "PARI" o "DISPARI"!').trim());
+    userNumber = parseInt(prompt('Inserisci bene la tua Scelta! Scegli un Numero tra 1 e 5!').trim());
     
 }
 
