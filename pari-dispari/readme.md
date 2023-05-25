@@ -38,4 +38,7 @@ PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce
 
         - Stampa nella Console il seguente messaggio: `Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Complimenti hai Vinto!`;
 
-    - ALTRIMENTI : Stampa nella Console il seguente messaggio: `Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Mi Dispiace hai Perso!`.
+    - ALTRIMENTI : Stampa nella Console il seguente messaggio: `Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Mi Dispiace hai Perso!`;
+
+
+- Richiama la funzione (sumNumber(userNumber, computerNumber)). 

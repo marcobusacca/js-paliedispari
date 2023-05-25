@@ -33,7 +33,7 @@ function randomNumber(min, max){
     const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
 
     // STAMPO NELLA CONSOLE IL RISULTATO DELLA GENERAZIONE
-    console.log(randomNumber);
+    console.log("Numero Random del Computer ---->", randomNumber);
 
     return randomNumber;
 }
@@ -65,5 +65,30 @@ while(isNaN(userNumber) || userNumber < 1 || userNumber > 5){
 console.log("L'utente ha scelto il numero ---->", userNumber);
 
 
-// RICHIAMO FUNZIONE RANDOMNUMBER
+// RICHIAMO FUNZIONE RANDOM_NUMBER
 const computerNumber = randomNumber(1, 5);
+
+
+// FUNZIONE CHE SOMMA IL NUMERO INSERITO DALL'UTENTE E IL NUMERO RANDOM DEL COMPUTER, E DICHIARA SE L'UTENTE HA VINTO O HA PERSO
+function sumNumber(userNumber, computerNumber){
+
+    // EFFETTUO LA SOMMA DEI DUE NUMERI
+    const sumNumber = userNumber + computerNumber;
+
+    // CONTROLLO RISULTATO
+    if (sumNumber % 2 === 0 && userChoice === "PARI"){ // LA SOMMA È PARI E L'UTENTE HA SCELTO PARI
+
+        console.log(`Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Complimenti hai Vinto!`);
+
+    } else if (sumNumber % 2 !== 0 && userChoice === "DISPARI"){ // LA SOMMA È DISPARI E L'UTENTE HA SCELTO DISPARI
+
+        console.log(`Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Complimenti hai Vinto!`);
+
+    } else{  // LA SOMMA È PARI E L'UTENTE HA SCELTO DISPARI, OPPURE LA SOMMA È DISPARI E L'UTENTE HA SCELTO PARI
+
+        console.log(`Hai scelto ${userChoice}, la Somma dei due Numeri è ${sumNumber}, Mi Dispiace hai Perso!`);
+    }
+}
+
+// RICHIAMO FUNZIONE SUM_NUMBER
+sumNumber(userNumber, computerNumber);
