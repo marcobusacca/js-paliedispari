@@ -1,6 +1,9 @@
 PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce un numero da 1 a 5. Genera un Numero Random (sempre da 1 a 5) per il Computer (usando una funzione). Sommiamo i due Numeri e stabiliamo se la Somma dei due Numeri è Pari o Dispari (usando una funzione). Alla fine Dichiariamo chi ha Vinto.
 
 
+- Stampa un alert che spiega all'utente come funziona questo programma;
+
+
 - Crea una funzione (randomNumber(min, max)) che genera un Numero Random da 1 a 5 per il Computer;
 
     - Genera il Numero Random ed inseriscilo dentro una Constante (randomNumber);
@@ -8,9 +11,6 @@ PROBLEMA : Crea un Programma dove l’utente sceglie Pari o Dispari ed inserisce
     - Stampa nella Console (randomNumber);
 
     - Ritorna (return) la Constante (randomNumber);
-
-
-- Stampa un alert che spiega all'utente come funziona questo programma;
 
 
 - Fai scegliere all'utente, tramite un Prompt, tra "pari" o "dispari", ed inserisci la scelta dentro una Constante (userChoice);
