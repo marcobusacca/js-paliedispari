@@ -37,3 +37,15 @@ function randomNumber(min, max){
 
     return randomNumber;
 }
+
+// PROMPT SCELTA UTENTE
+let userChoice = prompt('Scegli tra "PARI" o "DISPARI"!').trim().toUpperCase();
+
+// CONTROLLO CONTENUTO INSERITO DALL'UTENTE NEL PROMPT
+while(userChoice !== "PARI" && userChoice !== "DISPARI"){
+    userChoice = prompt('Inserisci bene la tua Scelta! Scegli tra "PARI" o "DISPARI"!').trim().toUpperCase();
+    
+}
+
+// CONSOLE LOG SCELTA UTENTE
+console.log(`L'utente ha scelto ----> ${userChoice}`);
